@@ -13,12 +13,12 @@ using System.Linq;
 namespace CG.Linq.CosmoDb.Repositories
 {
     /// <summary>
-    /// This class is a CosmoDb implementation of the <see cref="ILinqRepository{TModel}"/>
+    /// This class is a base CosmoDb implementation of the <see cref="ILinqRepository{TModel}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
-    public class CosmoDbRepository<TOptions, TModel> : 
+    public abstract class CosmoDbRepository<TOptions, TModel> : 
         LinqRepositoryBase<TOptions, TModel>,
         ILinqRepository<TModel>
         where TModel : class, IModel

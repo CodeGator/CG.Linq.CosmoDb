@@ -19,13 +19,13 @@ using System.Threading.Tasks;
 namespace CG.Business.CosmoDb.Repositories
 {
     /// <summary>
-    /// This class is a CosmoDb implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
+    /// This class is a base CosmoDb implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
     /// interface.
     /// </summary>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The type of associated model.</typeparam>
     /// <typeparam name="TKey">The key type associated with the model.</typeparam>
-    public class CosmoDbCrudRepository<TOptions, TModel, TKey> :
+    public abstract class CosmoDbCrudRepository<TOptions, TModel, TKey> :
         CrudRepositoryBase<TOptions, TModel, TKey>,
         ICrudRepository<TModel, TKey>
         where TModel : class, IModel<TKey>
