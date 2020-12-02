@@ -83,7 +83,7 @@
   
   <h1 id="CG_Business_CosmoDb_Repositories_CosmoDbCrudRepository_3" data-uid="CG.Business.CosmoDb.Repositories.CosmoDbCrudRepository`3" class="text-break">Class CosmoDbCrudRepository&lt;TOptions, TModel, TKey&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -154,7 +154,7 @@ interface.</p>
   <h6><strong>Assembly</strong>: CG.Linq.CosmoDb.dll</h6>
   <h5 id="CG_Business_CosmoDb_Repositories_CosmoDbCrudRepository_3_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CosmoDbCrudRepository&lt;TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;CosmoDbRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class CosmoDbCrudRepository&lt;TOptions, TModel, TKey&gt; : CrudRepositoryBase&lt;TOptions, TModel, TKey&gt;, ICrudRepository&lt;TModel, TKey&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;CosmoDbRepositoryOptions&gt; where TModel : class, IModel&lt;TKey&gt; where TKey : new()</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

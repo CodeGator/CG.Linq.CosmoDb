@@ -83,7 +83,7 @@
   
   <h1 id="CG_Linq_CosmoDb_Repositories_CosmoDbRepository_2" data-uid="CG.Linq.CosmoDb.Repositories.CosmoDbRepository`2" class="text-break">Class CosmoDbRepository&lt;TOptions, TModel&gt;
   </h1>
-  <div class="markdown level0 summary"><p>This class is a CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
+  <div class="markdown level0 summary"><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
 interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -142,7 +142,7 @@ interface.</p>
   <h6><strong>Assembly</strong>: CG.Linq.CosmoDb.dll</h6>
   <h5 id="CG_Linq_CosmoDb_Repositories_CosmoDbRepository_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CosmoDbRepository&lt;TOptions, TModel&gt; : LinqRepositoryBase&lt;TOptions, TModel&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;CosmoDbRepositoryOptions&gt; where TModel : class, IModel</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class CosmoDbRepository&lt;TOptions, TModel&gt; : LinqRepositoryBase&lt;TOptions, TModel&gt;, ILinqRepository&lt;TModel&gt;, IRepository, IDisposable where TOptions : IOptions&lt;CosmoDbRepositoryOptions&gt; where TModel : class, IModel</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

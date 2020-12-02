@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepository-3.html",
-          "hash": "btdc3AzquGPT/zNceTNJFg=="
+          "hash": "CwZ6dUkiQm3bE39mNAxXLQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Business.CosmoDb.Repositories.html",
-          "hash": "324gTHI0sF7yFzBFpMytqA=="
+          "hash": "55tqMPmp586XdysxaeOTyA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepository-2.html",
-          "hash": "Fs1oeFf1GsRSniG7CRmhJw=="
+          "hash": "JNFuUoH+gOyDVKMQvcA++Q=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.CosmoDb.Repositories.html",
-          "hash": "izhL+Dv/8/cL74sAj3mNgw=="
+          "hash": "d9h37k5SLhbVGaUeZ3kHqA=="
         }
       },
       "is_incremental": false,
