@@ -82,7 +82,7 @@ namespace CG.Business.CosmoDb.Repositories
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        public CosmoDbCrudRepository(
+        protected CosmoDbCrudRepository(
             TOptions options,
             CosmosClient client
             ) : base(options)

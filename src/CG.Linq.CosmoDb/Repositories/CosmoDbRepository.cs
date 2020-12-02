@@ -76,7 +76,7 @@ namespace CG.Linq.CosmoDb.Repositories
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        public CosmoDbRepository(
+        protected CosmoDbRepository(
             TOptions options,
             CosmosClient client
             ) : base(options)
@@ -142,6 +142,9 @@ namespace CG.Linq.CosmoDb.Repositories
                 // Create the properties for the container.
                 var containerProperties = new ContainerProperties()
                 {
+                    // TODO : we need to pull the indexing policy out of here
+                    //   and make it part of the repository options.
+
                     Id = ContainerName,
                     PartitionKeyPath = "/key",
                     IndexingPolicy = new IndexingPolicy()
