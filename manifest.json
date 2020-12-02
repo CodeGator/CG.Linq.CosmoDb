@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepository-3.html",
-          "hash": "CwZ6dUkiQm3bE39mNAxXLQ=="
+          "hash": "MuKwrQfDfjIu/828I0w1Uw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepository-2.html",
-          "hash": "JNFuUoH+gOyDVKMQvcA++Q=="
+          "hash": "CXRtziucHmBiJ0CCo1bMLg=="
         }
       },
       "is_incremental": false,
