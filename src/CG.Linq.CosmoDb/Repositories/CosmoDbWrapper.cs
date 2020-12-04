@@ -5,9 +5,8 @@ namespace CG.Linq.CosmoDb.Repositories
 {
     /// <summary>
     /// This class is used to internally wrap models with, since CosmoDb 
-    /// requires any row to have an 'id' property, with a string type, and 
-    /// extending that requirement to the <typeparamref name="TModel"/> type
-    /// seems ... Excessive.
+    /// requires any row, in a collection, to have a public 'id' property, with 
+    /// a string type. 
     /// </summary>
     internal class CosmoDbWrapper<TModel>
         where TModel : class, IModel

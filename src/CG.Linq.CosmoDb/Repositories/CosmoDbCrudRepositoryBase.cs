@@ -23,7 +23,7 @@ namespace CG.Business.CosmoDb.Repositories
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The type of associated model.</typeparam>
     /// <typeparam name="TKey">The key type associated with the model.</typeparam>
-    public abstract class CosmoDbCrudRepository<TOptions, TModel, TKey> :
+    public abstract class CosmoDbCrudRepositoryBase<TOptions, TModel, TKey> :
         CrudRepositoryBase<TOptions, TModel, TKey>,
         ICrudRepository<TModel, TKey>
         where TModel : class, IModel<TKey>
@@ -77,12 +77,12 @@ namespace CG.Business.CosmoDb.Repositories
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="CosmoDbCrudRepository{TOptions, TModel, TKey}"/>
+        /// This constructor creates a new instance of the <see cref="CosmoDbCrudRepositoryBase{TOptions, TModel, TKey}"/>
         /// class.
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        protected CosmoDbCrudRepository(
+        protected CosmoDbCrudRepositoryBase(
             TOptions options,
             CosmosClient client
             ) : base(options)

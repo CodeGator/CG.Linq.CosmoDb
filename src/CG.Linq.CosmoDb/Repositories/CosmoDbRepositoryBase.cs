@@ -18,7 +18,7 @@ namespace CG.Linq.CosmoDb.Repositories
     /// </summary>
     /// <typeparam name="TOptions">The options type associated with the repository.</typeparam>
     /// <typeparam name="TModel">The model type associated with the repository.</typeparam>
-    public abstract class CosmoDbRepository<TOptions, TModel> : 
+    public abstract class CosmoDbRepositoryBase<TOptions, TModel> : 
         LinqRepositoryBase<TOptions, TModel>,
         ILinqRepository<TModel>
         where TModel : class, IModel
@@ -71,12 +71,12 @@ namespace CG.Linq.CosmoDb.Repositories
         #region Constructors
 
         /// <summary>
-        /// This constructor creates a new instance of the <see cref="CosmoDbRepository{TOptions, TModel}"/>
+        /// This constructor creates a new instance of the <see cref="CosmoDbRepositoryBase{TOptions, TModel}"/>
         /// class.
         /// </summary>
         /// <param name="options">The options to use for the repository.</param>
         /// <param name="client">The CosmoDb client to use with the repository.</param>
-        protected CosmoDbRepository(
+        protected CosmoDbRepositoryBase(
             TOptions options,
             CosmosClient client
             ) : base(options)
@@ -146,7 +146,7 @@ namespace CG.Linq.CosmoDb.Repositories
                     //   and make it part of the repository options.
 
                     Id = ContainerName,
-                    PartitionKeyPath = "/key",
+                    PartitionKeyPath = "/id",
                     IndexingPolicy = new IndexingPolicy()
                     {
                         Automatic = false,
