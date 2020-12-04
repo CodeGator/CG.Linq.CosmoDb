@@ -14,11 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepository-3.yml",
+      "source_relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepository-3.html",
-          "hash": "MuKwrQfDfjIu/828I0w1Uw=="
+          "relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html",
+          "hash": "8jb/8cOi0hoPvWH+D1zpnA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Business.CosmoDb.Repositories.html",
-          "hash": "55tqMPmp586XdysxaeOTyA=="
+          "hash": "aMVIE9aceJmNFxw60ZBbQg=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepository-2.yml",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepository-2.html",
-          "hash": "CXRtziucHmBiJ0CCo1bMLg=="
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.html",
+          "hash": "5W53CZI88SL4MJOdIaWFvQ=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.CosmoDb.Repositories.html",
-          "hash": "d9h37k5SLhbVGaUeZ3kHqA=="
+          "hash": "u2jMHmPjaha0FJnLf7z1SQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aFwOW9gFvXV54j/eU+UjrQ=="
+          "hash": "NGRf3atePoN+J/LEM9Z75A=="
         }
       },
       "is_incremental": false,
