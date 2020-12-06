@@ -210,8 +210,7 @@ namespace CG.Linq.CosmoDb.Repositories
             // Defer to the CosmoDb container.
             return Container.Value.GetItemLinqQueryable<CosmoDbWrapper<TModel>>(
                 allowSynchronousQueryExecution: true
-                ).Select(x => x.model)
-                 .Cast<TModel>();
+                ).Select(x => x.model); // We want the inner model.
         }
 
         #endregion
