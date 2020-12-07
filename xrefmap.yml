@@ -1,231 +1,225 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Business.CosmoDb.Repositories
-  name: CG.Business.CosmoDb.Repositories
-  href: api/CG.Business.CosmoDb.Repositories.html
-  commentId: N:CG.Business.CosmoDb.Repositories
-  fullName: CG.Business.CosmoDb.Repositories
-  nameWithType: CG.Business.CosmoDb.Repositories
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3
-  name: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html
-  commentId: T:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3
-  name.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor(`0,Microsoft.Azure.Cosmos.CosmosClient)
-  name: CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3__ctor__0_Microsoft_Azure_Cosmos_CosmosClient_
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor(`0,Microsoft.Azure.Cosmos.CosmosClient)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase(TOptions, Microsoft.Azure.Cosmos.CosmosClient)
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase(TOptions, Microsoft.Azure.Cosmos.CosmosClient)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor*
-  name: CosmoDbCrudRepositoryBase
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3__ctor_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync(`1,System.Threading.CancellationToken)
-  name: AddAsync(TModel, CancellationToken)
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AddAsync__1_System_Threading_CancellationToken_
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync(`1,System.Threading.CancellationToken)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync(TModel, CancellationToken)
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync(TModel, CancellationToken)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync*
-  name: AddAsync
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AddAsync_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
-  name: AsQueryable()
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AsQueryable
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable()
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable()
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable()
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable()
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable*
-  name: AsQueryable
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AsQueryable_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
-  name: Client
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Client
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client*
-  name: Client
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Client_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
-  name: Container
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Container
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container*
-  name: Container
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Container_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
-  name: ContainerChecked
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerChecked
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked*
-  name: ContainerChecked
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerChecked_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
-  name: ContainerName
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerName
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName*
-  name: ContainerName
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerName_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
-  name: Database
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Database
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database*
-  name: Database
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Database_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
-  name: DatabaseChecked
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DatabaseChecked
-  commentId: P:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked*
-  name: DatabaseChecked
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DatabaseChecked_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync(`1,System.Threading.CancellationToken)
-  name: DeleteAsync(TModel, CancellationToken)
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DeleteAsync__1_System_Threading_CancellationToken_
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync(`1,System.Threading.CancellationToken)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync(TModel, CancellationToken)
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync(TModel, CancellationToken)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync*
-  name: DeleteAsync
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DeleteAsync_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose(System.Boolean)
-  name: Dispose(Boolean)
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Dispose_System_Boolean_
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose(System.Boolean)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose(System.Boolean)
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose(System.Boolean)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose(Boolean)
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose(Boolean)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose*
-  name: Dispose
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Dispose_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync(`1,System.Threading.CancellationToken)
-  name: UpdateAsync(TModel, CancellationToken)
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_UpdateAsync__1_System_Threading_CancellationToken_
-  commentId: M:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync(`1,System.Threading.CancellationToken)
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync(TModel, System.Threading.CancellationToken)
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync(TModel, System.Threading.CancellationToken)
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync(TModel, CancellationToken)
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync(TModel, CancellationToken)
-- uid: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync*
-  name: UpdateAsync
-  href: api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Business_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_UpdateAsync_
-  commentId: Overload:CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync
-  isSpec: "True"
-  fullName: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync
-  fullName.vb: CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync
-  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync
-  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync
 - uid: CG.Linq.CosmoDb.Repositories
   name: CG.Linq.CosmoDb.Repositories
   href: api/CG.Linq.CosmoDb.Repositories.html
   commentId: N:CG.Linq.CosmoDb.Repositories
   fullName: CG.Linq.CosmoDb.Repositories
   nameWithType: CG.Linq.CosmoDb.Repositories
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3
+  name: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html
+  commentId: T:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3
+  name.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor(`0,Microsoft.Azure.Cosmos.CosmosClient)
+  name: CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3__ctor__0_Microsoft_Azure_Cosmos_CosmosClient_
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor(`0,Microsoft.Azure.Cosmos.CosmosClient)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase(TOptions, Microsoft.Azure.Cosmos.CosmosClient)
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase(TOptions, Microsoft.Azure.Cosmos.CosmosClient)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase(TOptions, CosmosClient)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor*
+  name: CosmoDbCrudRepositoryBase
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3__ctor_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.#ctor
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.CosmoDbCrudRepositoryBase
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).CosmoDbCrudRepositoryBase
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync(`1,System.Threading.CancellationToken)
+  name: AddAsync(TModel, CancellationToken)
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AddAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync(TModel, CancellationToken)
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync(TModel, CancellationToken)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync*
+  name: AddAsync
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AddAsync_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AddAsync
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AddAsync
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AddAsync
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
+  name: AsQueryable()
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AsQueryable
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable()
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable()
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable()
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable()
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable*
+  name: AsQueryable
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_AsQueryable_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.AsQueryable
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.AsQueryable
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).AsQueryable
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
+  name: Client
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Client
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client*
+  name: Client
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Client_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Client
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Client
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Client
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
+  name: Container
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Container
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container*
+  name: Container
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Container_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Container
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Container
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Container
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
+  name: ContainerChecked
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerChecked
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked*
+  name: ContainerChecked
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerChecked_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerChecked
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerChecked
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerChecked
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
+  name: ContainerName
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerName
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName*
+  name: ContainerName
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_ContainerName_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.ContainerName
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.ContainerName
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).ContainerName
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
+  name: Database
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Database
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database*
+  name: Database
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Database_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Database
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Database
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Database
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
+  name: DatabaseChecked
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DatabaseChecked
+  commentId: P:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked*
+  name: DatabaseChecked
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DatabaseChecked_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DatabaseChecked
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DatabaseChecked
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DatabaseChecked
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync(`1,System.Threading.CancellationToken)
+  name: DeleteAsync(TModel, CancellationToken)
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DeleteAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync(TModel, CancellationToken)
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync(TModel, CancellationToken)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync*
+  name: DeleteAsync
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_DeleteAsync_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.DeleteAsync
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.DeleteAsync
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).DeleteAsync
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Dispose_System_Boolean_
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose(System.Boolean)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose(System.Boolean)
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose(System.Boolean)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose(Boolean)
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose(Boolean)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose*
+  name: Dispose
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_Dispose_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.Dispose
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.Dispose
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).Dispose
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync(`1,System.Threading.CancellationToken)
+  name: UpdateAsync(TModel, CancellationToken)
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_UpdateAsync__1_System_Threading_CancellationToken_
+  commentId: M:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync(`1,System.Threading.CancellationToken)
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync(TModel, System.Threading.CancellationToken)
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync(TModel, System.Threading.CancellationToken)
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync(TModel, CancellationToken)
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync(TModel, CancellationToken)
+- uid: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync*
+  name: UpdateAsync
+  href: api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html#CG_Linq_CosmoDb_Repositories_CosmoDbCrudRepositoryBase_3_UpdateAsync_
+  commentId: Overload:CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase`3.UpdateAsync
+  isSpec: "True"
+  fullName: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync
+  fullName.vb: CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync
+  nameWithType: CosmoDbCrudRepositoryBase<TOptions, TModel, TKey>.UpdateAsync
+  nameWithType.vb: CosmoDbCrudRepositoryBase(Of TOptions, TModel, TKey).UpdateAsync
 - uid: CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase`2
   name: CosmoDbRepositoryBase<TOptions, TModel>
   href: api/CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.html

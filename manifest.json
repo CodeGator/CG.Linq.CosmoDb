@@ -14,23 +14,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.yml",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CG.Business.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html",
-          "hash": "8jb/8cOi0hoPvWH+D1zpnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Business.CosmoDb.Repositories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Business.CosmoDb.Repositories.html",
-          "hash": "aMVIE9aceJmNFxw60ZBbQg=="
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html",
+          "hash": "eJzJbGci76GeJi9ea63b8w=="
         }
       },
       "is_incremental": false,
@@ -78,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CG.Linq.CosmoDb.Repositories.html",
-          "hash": "u2jMHmPjaha0FJnLf7z1SQ=="
+          "hash": "MeV5SrwAsHibbEoDMaPb2Q=="
         }
       },
       "is_incremental": false,
@@ -90,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NGRf3atePoN+J/LEM9Z75A=="
+          "hash": "RHsU5DJk9/5DhTV5KBNUsA=="
         }
       },
       "is_incremental": false,
@@ -182,7 +170,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "bNnp/7NFGZ3lDQSjSTvdfQ=="
+          "hash": "pFA7qIoNMpEWvRVS08ZCBg=="
         }
       },
       "is_incremental": false,
@@ -209,7 +197,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
