@@ -14,7 +14,7 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CG.Business.CosmoDb.Repositories
+namespace CG.Linq.CosmoDb.Repositories
 {
     /// <summary>
     /// This class is a base CosmoDb implementation of the <see cref="ICrudRepository{TModel, TKey}"/>
