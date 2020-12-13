@@ -4,6 +4,7 @@
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Linq.CosmoDb/index.html)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Linq.CosmoDb.svg?style=flat)](https://nuget.org/packages/CG.Linq.CosmoDb)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Linq.CosmoDb/33)
+[![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Linq.CosmoDb/discussions)
 
 #### What does it do?
 This package contains CosmoDb extensions used by other CodeGator packages.
