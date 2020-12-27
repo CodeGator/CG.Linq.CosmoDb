@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class CosmoDbRepositoryOptions
+    <title>Class ServiceCollectionExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class CosmoDbRepositoryOptions
+    <meta name="title" content="Class ServiceCollectionExtensions
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,35 +78,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions">
+            <article class="content wrap" id="_content" data-uid="CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions">
   
   
-  <h1 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions" class="text-break">Class CosmoDbRepositoryOptions
+  <h1 id="CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions" data-uid="CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions" class="text-break">Class ServiceCollectionExtensions
   </h1>
-  <div class="markdown level0 summary"><p>This class contains configuration settings for a CosmoDb repository.</p>
+  <div class="markdown level0 summary"><p>This class contains extension methods related to the <span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span>
+type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CG.DataAnnotations.ValidatableObject</span></div>
-    <div class="level2"><span class="xref">CG.Options.OptionsBase</span></div>
-    <div class="level3"><span class="xref">CG.Business.Repositories.Options.RepositoryOptions</span></div>
-    <div class="level4"><span class="xref">CG.Business.Repositories.Options.LinqRepositoryOptions</span></div>
-    <div class="level5"><span class="xref">CosmoDbRepositoryOptions</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">System.ComponentModel.DataAnnotations.IValidatableObject</span></div>
+    <div class="level1"><span class="xref">ServiceCollectionExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">CG.Business.Repositories.Options.LinqRepositoryOptions.ConnectionString</span>
-    </div>
-    <div>
-      <span class="xref">CG.DataAnnotations.ValidatableObject.Validate(System.ComponentModel.DataAnnotations.ValidationContext)</span>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -129,25 +116,50 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Linq.CosmoDb.Repositories.Options.html">CG.Linq.CosmoDb.Repositories.Options</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CG.Linq.CosmoDb.Repositories.html">CG.Linq.CosmoDb.Repositories</a></h6>
   <h6><strong>Assembly</strong>: CG.Linq.CosmoDb.dll</h6>
-  <h5 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_syntax">Syntax</h5>
+  <h5 id="CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class CosmoDbRepositoryOptions : LinqRepositoryOptions, IValidatableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ServiceCollectionExtensions</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
-  <a id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_DatabaseId_" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.DatabaseId*"></a>
-  <h4 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_DatabaseId" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.DatabaseId">DatabaseId</h4>
-  <div class="markdown level1 summary"><p>This property contains the database identifier to use with the repository.</p>
+  <a id="CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions_AddCosmoDbRepositories_" data-uid="CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories*"></a>
+  <h4 id="CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">AddCosmoDbRepositories&lt;TOptions&gt;(IServiceCollection, IConfiguration)</h4>
+  <div class="markdown level1 summary"><p>This method loads and registers CosmoDb specific repository options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required(ErrorMessageResourceName = &quot;CosmoRepositoryOptions_DbId&quot;, ErrorMessageResourceType = typeof(Resources))]
-public string DatabaseId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddCosmoDbRepositories&lt;TOptions&gt;(this IServiceCollection serviceCollection, IConfiguration configuration)
+    where TOptions : CosmoDbRepositoryOptions, new()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><span class="parametername">serviceCollection</span></td>
+        <td><p>The service collection to use for
+the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
+        <td><span class="parametername">configuration</span></td>
+        <td><p>The configuration to use for the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -157,96 +169,46 @@ public string DatabaseId { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.IServiceCollection</span></td>
+        <td><p>The value of the <code data-dev-comment-type="paramref" class="paramref">serviceCollection</code>
+parameter, for chaining calls together.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_DropDatabase_" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.DropDatabase*"></a>
-  <h4 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_DropDatabase" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.DropDatabase">DropDatabase</h4>
-  <div class="markdown level1 summary"><p>This property indicates whether the database should be dropped, if
-it already exists (or not). Note, this step is only ever performed
-when running in the <code>Development</code> environment, in order to
-prevent horrible accidents in production.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DropDatabase { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="parametername">TOptions</span></td>
+        <td><p>The type of associated repository options.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_EnsureCreated_" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.EnsureCreated*"></a>
-  <h4 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_EnsureCreated" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.EnsureCreated">EnsureCreated</h4>
-  <div class="markdown level1 summary"><p>This property indicates whether the database should be created, if
-needed, at startup (or not). Note, this step is only ever performed
-when running in the <code>Development</code> environment, in order to
-prevent horrible accidents in production.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool EnsureCreated { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
+        <th>Condition</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>This exception is thrown whenever one
+or more arguments are invalid, or missing.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <a id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_SeedDatabase_" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.SeedDatabase*"></a>
-  <h4 id="CG_Linq_CosmoDb_Repositories_Options_CosmoDbRepositoryOptions_SeedDatabase" data-uid="CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.SeedDatabase">SeedDatabase</h4>
-  <div class="markdown level1 summary"><p>This property indicates whether the database should be seeded with
-data, if needed, at startup (or not). Note, this step is only ever
-performed when running in the <code>Development</code> environment, in order
-to prevent horrible accidents in production.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SeedDatabase { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">System.ComponentModel.DataAnnotations.IValidatableObject</span>
-  </div>
 </article>
           </div>
           
