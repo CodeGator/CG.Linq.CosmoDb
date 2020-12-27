@@ -1,10 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright © 2019 - 2020 by CodeGator. All rights reserved.</Copyright>
+    <Copyright>Copyright © 2019 - 2021 by CodeGator. All rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Linq.CosmoDb</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/CodeGator/CG.Linq.CosmoDb</RepositoryUrl>
@@ -14,7 +14,7 @@
     <Description>This package contains CosmoDb extensions used by other CodeGator packages. 
 
 Platforms supported:
-    .NET Standard 2.0 or above</Description>
+    .NET Core 3.1 or above</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -50,5 +50,9 @@ Platforms supported:
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
 </Project>

@@ -123,9 +123,6 @@
   <data name="CosmoDbCrudRepository_CreateContainer" xml:space="preserve">
     <value>failed to create a CosmoDb container named '{0}'. The status code was: '{1}'. The database id was: '{2}' The connection string was: '{3}'.</value>
   </data>
-  <data name="CosmoDbCrudRepository_CreateDatabase" xml:space="preserve">
-    <value>failed to create a CosmoDb database named '{0}'. The status code was: '{1}'. The connection string was: '{2}'.</value>
-  </data>
   <data name="CosmoDbCrudRepository_DeleteAsync" xml:space="preserve">
     <value>{0} failed to delete a {1}! parameter: {2}. See inner exception(s) for more detail.</value>
   </data>
@@ -134,5 +131,8 @@
   </data>
   <data name="CosmoRepositoryOptions_DbId" xml:space="preserve">
     <value>CosmoDbRepository options require a 'DatabaseId' field and it appears to be missing, or empty. Check the configuration to ensure that it contains a 'DatabaseId' field under the 'CosmoDb' section. Also, ensure that you're binding to the properties above the 'CosmoDb' section, so that the binding operation won't fail and the options will validate properly.</value>
+  </data>
+  <data name="CreateDatabase" xml:space="preserve">
+    <value>failed to create a CosmoDb database named '{0}'. The status code was: '{1}'. The connection string was: '{2}'.</value>
   </data>
 </root>

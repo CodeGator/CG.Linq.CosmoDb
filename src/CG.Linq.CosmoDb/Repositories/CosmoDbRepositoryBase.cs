@@ -115,7 +115,7 @@ namespace CG.Linq.CosmoDb.Repositories
                         // Panic!
                         throw new InvalidOperationException(
                             message: string.Format(
-                                Resources.CosmoDbCrudRepository_CreateDatabase,
+                                Resources.CreateDatabase,
                                 response,
                                 Options.Value.DatabaseId,
                                 Options.Value.ConnectionString

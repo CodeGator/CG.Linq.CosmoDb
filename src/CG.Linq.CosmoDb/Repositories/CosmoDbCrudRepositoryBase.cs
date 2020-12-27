@@ -119,7 +119,7 @@ namespace CG.Linq.CosmoDb.Repositories
                         // Panik!
                         throw new InvalidOperationException(
                             message: string.Format(
-                                Resources.CosmoDbCrudRepository_CreateDatabase,
+                                Resources.CreateDatabase,
                                 Options.Value.DatabaseId,
                                 response.StatusCode,
                                 Options.Value.ConnectionString
@@ -476,7 +476,7 @@ namespace CG.Linq.CosmoDb.Repositories
                         // Panik!
                         throw new InvalidOperationException(
                             message: string.Format(
-                                Resources.CosmoDbCrudRepository_CreateDatabase,
+                                Resources.CreateDatabase,
                                 Options.Value.DatabaseId,
                                 response.StatusCode,
                                 Options.Value.ConnectionString
@@ -829,7 +829,7 @@ namespace CG.Linq.CosmoDb.Repositories
                         // Panik!
                         throw new InvalidOperationException(
                             message: string.Format(
-                                Resources.CosmoDbCrudRepository_CreateDatabase,
+                                Resources.CreateDatabase,
                                 Options.Value.DatabaseId,
                                 response.StatusCode,
                                 Options.Value.ConnectionString

@@ -79,15 +79,6 @@ namespace CG.Linq.CosmoDb.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to failed to create a CosmoDb database named &apos;{0}&apos;. The status code was: &apos;{1}&apos;. The connection string was: &apos;{2}&apos;..
-        /// </summary>
-        internal static string CosmoDbCrudRepository_CreateDatabase {
-            get {
-                return ResourceManager.GetString("CosmoDbCrudRepository_CreateDatabase", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to {0} failed to delete a {1}! parameter: {2}. See inner exception(s) for more detail..
         /// </summary>
         internal static string CosmoDbCrudRepository_DeleteAsync {
@@ -111,6 +102,15 @@ namespace CG.Linq.CosmoDb.Properties {
         internal static string CosmoRepositoryOptions_DbId {
             get {
                 return ResourceManager.GetString("CosmoRepositoryOptions_DbId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to failed to create a CosmoDb database named &apos;{0}&apos;. The status code was: &apos;{1}&apos;. The connection string was: &apos;{2}&apos;..
+        /// </summary>
+        internal static string CreateDatabase {
+            get {
+                return ResourceManager.GetString("CreateDatabase", resourceCulture);
             }
         }
     }
