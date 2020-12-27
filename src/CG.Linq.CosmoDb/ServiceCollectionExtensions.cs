@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CG.Linq.CosmoDb.Repositories
+namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>

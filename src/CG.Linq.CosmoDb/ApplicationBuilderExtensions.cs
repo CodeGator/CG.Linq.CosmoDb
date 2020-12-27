@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
 
-namespace CG.Linq.CosmoDb
+namespace Microsoft.AspNetCore.Builder
 {
     /// <summary>
     /// This delegate type represents a callback to seed a database.
@@ -17,7 +17,6 @@ namespace CG.Linq.CosmoDb
     /// <param name="client">The CosmoDb client to use for the operation.</param>
     /// <param name="wasDropped">Indicates whether the data-context was recently dropped.</param>
     /// <param name="wasCreated">Indicates whether the data-context was recently created.</param>
-    /// <param name="wasMigrated">Indicates whether the data-context was recently migrated.</param>
     public delegate void SeedAction<in TClient>(
         TClient client,
         bool wasDropped,
