@@ -17,6 +17,10 @@ Platforms supported:
     .NET Core 3.1 or above</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\CG.Linq.CosmoDb.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="CG.Linq" Version="2021.1.2" />
     <PackageReference Include="CG.Pluralization" Version="0.3000.12" />
