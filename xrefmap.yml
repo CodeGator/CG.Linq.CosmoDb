@@ -1,34 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: CG.Linq.CosmoDb
-  name: CG.Linq.CosmoDb
-  href: api/CG.Linq.CosmoDb.html
-  commentId: N:CG.Linq.CosmoDb
-  fullName: CG.Linq.CosmoDb
-  nameWithType: CG.Linq.CosmoDb
-- uid: CG.Linq.CosmoDb.ApplicationBuilderExtensions
-  name: ApplicationBuilderExtensions
-  href: api/CG.Linq.CosmoDb.ApplicationBuilderExtensions.html
-  commentId: T:CG.Linq.CosmoDb.ApplicationBuilderExtensions
-  fullName: CG.Linq.CosmoDb.ApplicationBuilderExtensions
-  nameWithType: ApplicationBuilderExtensions
-- uid: CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb*
-  name: UseCosmoDb
-  href: api/CG.Linq.CosmoDb.ApplicationBuilderExtensions.html#CG_Linq_CosmoDb_ApplicationBuilderExtensions_UseCosmoDb_
-  commentId: Overload:CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb
-  isSpec: "True"
-  fullName: CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb
-- uid: CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,CG.Linq.CosmoDb.SeedAction{``0})
-  name: UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
-  href: api/CG.Linq.CosmoDb.ApplicationBuilderExtensions.html#CG_Linq_CosmoDb_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_CG_Linq_CosmoDb_SeedAction___0__
-  commentId: M:CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,CG.Linq.CosmoDb.SeedAction{``0})
-  name.vb: UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
-  fullName: CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, CG.Linq.CosmoDb.SeedAction<TClient>)
-  fullName.vb: CG.Linq.CosmoDb.ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, CG.Linq.CosmoDb.SeedAction(Of TClient))
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
 - uid: CG.Linq.CosmoDb.Repositories
   name: CG.Linq.CosmoDb.Repositories
   href: api/CG.Linq.CosmoDb.Repositories.html
@@ -900,34 +872,68 @@ references:
   isSpec: "True"
   fullName: CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.SeedDatabase
   nameWithType: CosmoDbRepositoryOptions.SeedDatabase
-- uid: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.html
-  commentId: T:CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions
-  fullName: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories*
-  name: AddCosmoDbRepositories
-  href: api/CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.html#CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions_AddCosmoDbRepositories_
-  commentId: Overload:CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories
+- uid: Microsoft.AspNetCore.Builder
+  name: Microsoft.AspNetCore.Builder
+  href: api/Microsoft.AspNetCore.Builder.html
+  commentId: N:Microsoft.AspNetCore.Builder
+  fullName: Microsoft.AspNetCore.Builder
+  nameWithType: Microsoft.AspNetCore.Builder
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb*
+  name: UseCosmoDb
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb_
+  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
   isSpec: "True"
-  fullName: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories
-  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories
-- uid: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name: AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
-  href: api/CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.html#CG_Linq_CosmoDb_Repositories_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
-  commentId: M:CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
-  name.vb: AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)
-  fullName: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  fullName.vb: CG.Linq.CosmoDb.Repositories.ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
-  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
-  nameWithType.vb: ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)
-- uid: CG.Linq.CosmoDb.SeedAction`1
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
+  nameWithType: ApplicationBuilderExtensions.UseCosmoDb
+- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name: UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
+  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  name.vb: UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
+  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
+  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
+  nameWithType: ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
+  nameWithType.vb: ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
+- uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TClient>
-  href: api/CG.Linq.CosmoDb.SeedAction-1.html
-  commentId: T:CG.Linq.CosmoDb.SeedAction`1
+  href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
+  commentId: T:Microsoft.AspNetCore.Builder.SeedAction`1
   name.vb: SeedAction(Of TClient)
-  fullName: CG.Linq.CosmoDb.SeedAction<TClient>
-  fullName.vb: CG.Linq.CosmoDb.SeedAction(Of TClient)
+  fullName: Microsoft.AspNetCore.Builder.SeedAction<TClient>
+  fullName.vb: Microsoft.AspNetCore.Builder.SeedAction(Of TClient)
   nameWithType: SeedAction<TClient>
   nameWithType.vb: SeedAction(Of TClient)
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories*
+  name: AddCosmoDbRepositories
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories
+  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories
+- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
+  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration)

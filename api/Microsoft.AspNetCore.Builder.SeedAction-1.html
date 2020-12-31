@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace CG.Linq.CosmoDb.Repositories
+    <title>Delegate SeedAction&lt;TClient&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace CG.Linq.CosmoDb.Repositories
+    <meta name="title" content="Delegate SeedAction&lt;TClient&gt;
    ">
     <meta name="generator" content="docfx 2.56.6.0">
     
@@ -78,31 +78,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CG.Linq.CosmoDb.Repositories">
+            <article class="content wrap" id="_content" data-uid="Microsoft.AspNetCore.Builder.SeedAction`1">
   
-  <h1 id="CG_Linq_CosmoDb_Repositories" data-uid="CG.Linq.CosmoDb.Repositories" class="text-break">Namespace CG.Linq.CosmoDb.Repositories
+  
+  <h1 id="Microsoft_AspNetCore_Builder_SeedAction_1" data-uid="Microsoft.AspNetCore.Builder.SeedAction`1" class="text-break">Delegate SeedAction&lt;TClient&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>This delegate type represents a callback to seed a database.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html">CosmoDbCrudRepositoryBase&lt;TOptions, TModel, TKey&gt;</a></h4>
-      <section><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey&gt;</span>
-interface.</p>
-</section>
-      <h4><a class="xref" href="CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-4.html">CosmoDbCrudRepositoryBase&lt;TOptions, TModel, TKey1, TKey2&gt;</a></h4>
-      <section><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey1, TKey2&gt;</span>
-interface.</p>
-</section>
-      <h4><a class="xref" href="CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-5.html">CosmoDbCrudRepositoryBase&lt;TOptions, TModel, TKey1, TKey2, TKey3&gt;</a></h4>
-      <section><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ICrudRepository&lt;TModel, TKey1, TKey2, TKey3&gt;</span>
-interface.</p>
-</section>
-      <h4><a class="xref" href="CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.html">CosmoDbRepositoryBase&lt;TOptions, TModel&gt;</a></h4>
-      <section><p>This class is a base CosmoDb implementation of the <span class="xref">CG.Business.Repositories.ILinqRepository&lt;TModel&gt;</span>
-interface.</p>
-</section>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Microsoft.AspNetCore.Builder.html">Microsoft.AspNetCore.Builder</a></h6>
+  <h6><strong>Assembly</strong>: CG.Linq.CosmoDb.dll</h6>
+  <h5 id="Microsoft_AspNetCore_Builder_SeedAction_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public delegate void SeedAction&lt;in TClient&gt;(TClient client, bool wasDropped, bool wasCreated)
+    where TClient : CosmosClient;</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TClient</span></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>The CosmoDb client to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wasDropped</span></td>
+        <td><p>Indicates whether the data-context was recently dropped.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wasCreated</span></td>
+        <td><p>Indicates whether the data-context was recently created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TClient</span></td>
+        <td><p>The type of associated CosmoDb client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
