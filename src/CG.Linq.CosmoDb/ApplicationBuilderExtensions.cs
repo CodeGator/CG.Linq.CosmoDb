@@ -43,7 +43,7 @@ namespace Microsoft.AspNetCore.Builder
         /// database (if needed), or adding seed data to an otherwise blank 
         /// database. 
         /// </summary>
-        /// <typeparam name="TClient">The type of assciated client.</typeparam>
+        /// <typeparam name="TClient">The type of associated client.</typeparam>
         /// <typeparam name="TOptions">The type of associated options.</typeparam>
         /// <param name="applicationBuilder">The application builder to use for 
         /// the operation.</param>
