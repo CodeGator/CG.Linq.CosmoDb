@@ -125,13 +125,13 @@ type.</p>
   <h3 id="methods">Methods
   </h3>
   <a id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories*"></a>
-  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">AddCosmoDbRepositories&lt;TOptions&gt;(IServiceCollection, IConfiguration)</h4>
+  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)">AddCosmoDbRepositories&lt;TOptions&gt;(IServiceCollection, IConfiguration, ServiceLifetime)</h4>
   <div class="markdown level1 summary"><p>This method loads and registers CosmoDb specific repository options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IServiceCollection AddCosmoDbRepositories&lt;TOptions&gt;(this IServiceCollection serviceCollection, IConfiguration configuration)
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddCosmoDbRepositories&lt;TOptions&gt;(this IServiceCollection serviceCollection, IConfiguration configuration, ServiceLifetime serviceLifetime = ServiceLifetime.Scoped)
     where TOptions : CosmoDbRepositoryOptions, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -155,6 +155,12 @@ the operation.</p>
         <td><span class="xref">Microsoft.Extensions.Configuration.IConfiguration</span></td>
         <td><span class="parametername">configuration</span></td>
         <td><p>The configuration to use for the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.DependencyInjection.ServiceLifetime</span></td>
+        <td><span class="parametername">serviceLifetime</span></td>
+        <td><p>The service lifetime to use for the operation.</p>
 </td>
       </tr>
     </tbody>
