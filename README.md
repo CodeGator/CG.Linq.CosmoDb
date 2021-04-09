@@ -15,7 +15,7 @@ This package contains CosmoDb extensions used by other CodeGator packages.
 * CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepository
 
 #### What platform(s) does it support?
-* .NET Standard 2.0 or higher.
+* .NET 5.x or higher.
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Linq.CosmoDb/issues)
