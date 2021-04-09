@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ServiceCollectionExtensions
    ">
-    <meta name="generator" content="docfx 2.56.6.0">
+    <meta name="generator" content="docfx 2.57.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -125,13 +125,13 @@ type.</p>
   <h3 id="methods">Methods
   </h3>
   <a id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories*"></a>
-  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)">AddCosmoDbRepositories&lt;TOptions&gt;(IServiceCollection, IConfiguration, ServiceLifetime)</h4>
+  <h4 id="Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_AspNetCore_DataProtection_IDataProtector_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_" data-uid="Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.AspNetCore.DataProtection.IDataProtector,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)">AddCosmoDbRepositories&lt;TOptions&gt;(IServiceCollection, IDataProtector, IConfiguration, ServiceLifetime)</h4>
   <div class="markdown level1 summary"><p>This method loads and registers CosmoDb specific repository options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IServiceCollection AddCosmoDbRepositories&lt;TOptions&gt;(this IServiceCollection serviceCollection, IConfiguration configuration, ServiceLifetime serviceLifetime = ServiceLifetime.Scoped)
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddCosmoDbRepositories&lt;TOptions&gt;(this IServiceCollection serviceCollection, IDataProtector dataProtector, IConfiguration configuration, ServiceLifetime serviceLifetime = ServiceLifetime.Scoped)
     where TOptions : CosmoDbRepositoryOptions, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -149,6 +149,12 @@ type.</p>
         <td><span class="parametername">serviceCollection</span></td>
         <td><p>The service collection to use for
 the operation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.AspNetCore.DataProtection.IDataProtector</span></td>
+        <td><span class="parametername">dataProtector</span></td>
+        <td><p>The data protector to use for the operation.</p>
 </td>
       </tr>
       <tr>
