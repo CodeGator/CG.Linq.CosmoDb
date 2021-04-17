@@ -27,9 +27,9 @@ namespace Microsoft.AspNetCore.Builder
 
     /// <summary>
     /// This class contains extension methods related to the <see cref="IApplicationBuilder"/>
-    /// type.
+    /// type, for registering types related to the cosmo db
     /// </summary>
-    public static partial class ApplicationBuilderExtensions
+    public static partial class CosmoDbApplicationBuilderExtensions
     {
         // *******************************************************************
         // Public methods.

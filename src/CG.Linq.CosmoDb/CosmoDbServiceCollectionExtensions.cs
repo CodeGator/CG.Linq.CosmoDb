@@ -1,19 +1,15 @@
 ﻿using CG.Linq.CosmoDb.Repositories.Options;
 using CG.Validations;
-using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// This class contains extension methods related to the <see cref="IServiceCollection"/>
-    /// type.
+    /// type., for registering types related to the cosmo db.
     /// </summary>
-    public static partial class ServiceCollectionExtensions
+    public static partial class CosmoDbServiceCollectionExtensions
     {
         // *******************************************************************
         // Public methods.
