@@ -878,28 +878,28 @@ references:
   commentId: N:Microsoft.AspNetCore.Builder
   fullName: Microsoft.AspNetCore.Builder
   nameWithType: Microsoft.AspNetCore.Builder
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  name: ApplicationBuilderExtensions
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html
-  commentId: T:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions
-  nameWithType: ApplicationBuilderExtensions
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb*
+- uid: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions
+  name: CosmoDbApplicationBuilderExtensions
+  href: api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.html
+  commentId: T:Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions
+  fullName: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions
+  nameWithType: CosmoDbApplicationBuilderExtensions
+- uid: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb*
   name: UseCosmoDb
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb_
-  commentId: Overload:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
+  href: api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_CosmoDbApplicationBuilderExtensions_UseCosmoDb_
+  commentId: Overload:Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb
   isSpec: "True"
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb
-- uid: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  fullName: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb
+  nameWithType: CosmoDbApplicationBuilderExtensions.UseCosmoDb
+- uid: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name: UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
-  href: api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_ApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
-  commentId: M:Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
+  href: api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.html#Microsoft_AspNetCore_Builder_CosmoDbApplicationBuilderExtensions_UseCosmoDb__2_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_Microsoft_AspNetCore_Builder_SeedAction___0__
+  commentId: M:Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb``2(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Builder.SeedAction{``0})
   name.vb: UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
-  fullName: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
-  fullName.vb: Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
-  nameWithType: ApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
-  nameWithType.vb: ApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
+  fullName: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction<TClient>)
+  fullName.vb: Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment, Microsoft.AspNetCore.Builder.SeedAction(Of TClient))
+  nameWithType: CosmoDbApplicationBuilderExtensions.UseCosmoDb<TClient, TOptions>(IApplicationBuilder, IWebHostEnvironment, SeedAction<TClient>)
+  nameWithType.vb: CosmoDbApplicationBuilderExtensions.UseCosmoDb(Of TClient, TOptions)(IApplicationBuilder, IWebHostEnvironment, SeedAction(Of TClient))
 - uid: Microsoft.AspNetCore.Builder.SeedAction`1
   name: SeedAction<TClient>
   href: api/Microsoft.AspNetCore.Builder.SeedAction-1.html
@@ -915,25 +915,25 @@ references:
   commentId: N:Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
-  commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories*
+- uid: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions
+  name: CosmoDbServiceCollectionExtensions
+  href: api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions
+  fullName: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions
+  nameWithType: CosmoDbServiceCollectionExtensions
+- uid: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories*
   name: AddCosmoDbRepositories
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories_
-  commentId: Overload:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories
+  href: api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_CosmoDbServiceCollectionExtensions_AddCosmoDbRepositories_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories
   isSpec: "True"
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories
-  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories
-- uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories
+  nameWithType: CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories
+- uid: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
   name: AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_ServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  href: api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_CosmoDbServiceCollectionExtensions_AddCosmoDbRepositories__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
+  commentId: M:Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
   name.vb: AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)
-  fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
-  nameWithType.vb: ServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)
+  fullName: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
+  nameWithType: CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories<TOptions>(IServiceCollection, IConfiguration, ServiceLifetime)
+  nameWithType.vb: CosmoDbServiceCollectionExtensions.AddCosmoDbRepositories(Of TOptions)(IServiceCollection, IConfiguration, ServiceLifetime)

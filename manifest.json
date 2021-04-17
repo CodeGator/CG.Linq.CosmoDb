@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.yml",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions.html",
-          "hash": "Ju2AK/1RChn9DY06Uyeu5HkcVqIfV5iAjRcxMOkYuQw="
+          "relative_path": "api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.html",
+          "hash": "yl3p60GSPgzmkAOwhQf2OYpaORoUCChl8oFPwgxlHBM="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.AspNetCore.Builder.html",
-          "hash": "oW3LVy+VAuUmKKxl0nWkq4iF0bJgen0M7gZDAJ8cGMc="
+          "hash": "eeWr1v+yXWxY4jFGPow6OyKltifK/LdsZWmSvrWjnM0="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.yml",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "lTZxzQsqz0qnHGs5oBrv1D68sXUkGYWD06R5RXn6E2Y="
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.html",
+          "hash": "L4BXjiXiWIh9sQ8oRwHs/vl+NSdHQB2WHG4wjhTT6Gc="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
-          "hash": "IgaXKEF9ASkCD8+TNpTqvf6qEszdalOBZkq9JnhQaLA="
+          "hash": "pnnCpyiALqP2ABXzksUaEzD4Lu5Cn3Ou71dILdr3FkA="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "maD3WbMf6Z15yWhV9VrWiCjneZfWVsDl1FlKO7HOTIA="
+          "hash": "hUFavLZcTnS3cnREiguEVL2QUBSP3rARfIwR41QkeR8="
         }
       },
       "is_incremental": false,
