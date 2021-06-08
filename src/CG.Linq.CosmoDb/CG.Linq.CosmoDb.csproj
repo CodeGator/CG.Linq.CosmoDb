@@ -23,7 +23,7 @@ Platforms supported:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Linq" Version="2021.2.17" />
+    <PackageReference Include="CG.Linq" Version="2021.2.18" />
     <PackageReference Include="CG.Pluralization" Version="0.3000.12" />
     <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.19.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
