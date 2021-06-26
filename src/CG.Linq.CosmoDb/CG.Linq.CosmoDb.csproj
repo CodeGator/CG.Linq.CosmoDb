@@ -23,9 +23,9 @@ Platforms supported:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Linq" Version="2021.2.19" />
+    <PackageReference Include="CG.Linq" Version="2021.2.20" />
     <PackageReference Include="CG.Pluralization" Version="0.3000.12" />
-    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.19.0" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.20.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.216">
       <PrivateAssets>all</PrivateAssets>
