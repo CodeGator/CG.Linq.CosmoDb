@@ -13,12 +13,168 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-3.html",
+          "hash": "glXl70i+pM0NKbDENZKN5etl80OzLfNE2yCTHNOWE/0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-4.html",
+          "hash": "3JMR1f15vE5gu9Ovle3GqpW2i4HtPpr1VfEBChUYjyA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbCrudRepositoryBase-5.html",
+          "hash": "jTsBBrFcnJW9jVzm9FhJkAVzmrzroVFmKUvwwVkiAuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.CosmoDbRepositoryBase-2.html",
+          "hash": "+GpjzOXTRZgZ56WnXPLcjERbwekloMtrwb14nQ7U/Ck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.Options.CosmoDbRepositoryOptions.html",
+          "hash": "xx2NEDVK9W8CGYH7A1cap8PeO9FyahF0B07XkKe3lFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.Options.html",
+          "hash": "KZXKXKD7i57eBL940j4vkWWEvQoSYxRfHJWni4m05u8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Linq.CosmoDb.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Linq.CosmoDb.Repositories.html",
+          "hash": "yBCpb0+kmzAOOQdQIISG6ojVcYVForC6lxWO33or3wk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.CosmoDbApplicationBuilderExtensions.html",
+          "hash": "TKhUY2OaDYVCEENNB1Afyw6kkNT6BB/g+ZU6OKzuMYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.SeedAction-1.html",
+          "hash": "QHLo61+GXlXnge9/Ndc5eI4Oj8ZwX4nkoC3myGd93lo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.AspNetCore.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.AspNetCore.Builder.html",
+          "hash": "KS25W9Qav79dGqRqUz8aff4xfvx+KN8Q6IYJ2ir90rs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.CosmoDbServiceCollectionExtensions.html",
+          "hash": "ShKHRZUGMgCUe2wx9i8gZ6DxLqtCp6twdg5loUU3SZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Microsoft.Extensions.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Microsoft.Extensions.DependencyInjection.html",
+          "hash": "KP2KlhgRvCeB8dHn2VFxLgy6vc43zMbStwWvpbsoVLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "hUFavLZcTnS3cnREiguEVL2QUBSP3rARfIwR41QkeR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "3lFGsZn+vpYCWz7OututIOBGsz91XMn2mjINvNxc584="
         }
       },
       "is_incremental": false,
@@ -86,7 +242,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "B2euHjfWS5qPpxBi7t06SwEtsY/zNwhDxYeyLx4EdUs="
+          "hash": "j0vfS+d2iMQb9C3By0qHqaYMj0eij8DJn1A1F6ukTpM="
         }
       },
       "is_incremental": false,
@@ -98,7 +254,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "GfyUAckKOWhrakZoTrCo3rpH2GtLgN7Fe/1Gmk/vbyk="
+          "hash": "8yZN3Lg2vfRI4IITa0yZXL1SuONeR6wa2WocvbIQ2u0="
         }
       },
       "is_incremental": false,
@@ -120,6 +276,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
