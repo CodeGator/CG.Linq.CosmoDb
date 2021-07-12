@@ -5,6 +5,7 @@
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Linq.CosmoDb.svg?style=flat)](https://nuget.org/packages/CG.Linq.CosmoDb)
 ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Linq.CosmoDb/33)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Linq.CosmoDb/discussions)
+[![CG.Linq.CosmoDb on fuget.org](https://www.fuget.org/packages/CG.Linq.CosmoDb/badge.svg)](https://www.fuget.org/packages/CG.Linq.CosmoDb)
 
 #### What does it do?
 This package contains CosmoDb extensions used by other CodeGator packages.
@@ -19,6 +20,8 @@ This package contains CosmoDb extensions used by other CodeGator packages.
 
 #### How do I contact you?
 If you've spotted a bug in the code please use the project Issues [HERE](https://github.com/CodeGator/CG.Linq.CosmoDb/issues)
+
+We have a discussion group [HERE](https://github.com/CodeGator/CG.Linq.CosmoDb/discussions)
 
 #### Is there any documentation?
 There is developer documentation [HERE](https://codegator.github.io/CG.Linq.CosmoDb/)
